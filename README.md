@@ -1,6 +1,7 @@
 # mitema Theme
 An  theme based in Inmersion theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/)
 
+![Image in hedar theme OJS](./plugins/themes/mitema/resources/images/homepageimage_en.jpg)
 
 ## Description
 The purpose of this theme is to learn more about how themes development work in OJS. It is based on the Immersion theme because it is a theme with a very pleasant and practical layout to have easy-to-read content.
