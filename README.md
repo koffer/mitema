@@ -1,36 +1,21 @@
-# Immersion Theme
-An official theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/)
+# mitema Theme
+An  theme based in Inmersion theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/)
 
-This theme was developed and is maintained by the [Public Knowledge Project](https://pkp.sfu.ca/).
 
 ## Description
-The Immersive theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices.
+The purpose of this theme is to learn more about how themes development work in OJS. It is based on the Immersion theme because it is a theme with a very pleasant and practical layout to have easy-to-read content.
 
-The serif typeface, Spectral, conveys a strong artistic personality and is paired with the crisp functionality of Roboto, a sans-serif typeface.
+This theme attempts to achieve the following goals:
 
-This theme allows you to display a full-width image in the header. When used appropriately, the image and color options can provide a striking aesthetic that will stand out from other journals. This effect may work best for arts and culture journals which want to present a more ambitious visual profile.
+1- Use pure CSS pur and stop using any preprocessor. In this case stop using LESS. CSS options have come a long way and it is now possible to do almost everything that is required with CSS alone.
+
+2- Stop using Boostrap tags. It is now possible to replicate much of Boostrap's functionality with CSS options such as flex or grid without having to use the classes that Bootstrap uses.
+
+3- Make a simple and attractive design based on the arrangement of the Immersion theme.
 
 ## Installation
 This theme can be installed through the **Plugin Gallery** in Open Journal Systems. If it's not available in the plugin gallery, you may need to update Open Journal Systems to a compatible version.
 
-### Contribute Changes
-
-To contribute changes you will need to install this theme from the `master` branch of this repository.
-
-1. `git clone https://github.com/pkp/immersion.git`.
-2. Move to the theme's root folder: `cd immersion`.
-3. Make sure that [npm](https://www.npmjs.com/get-npm) and [Gulp](https://gulpjs.com/) are installed.
-4. Resolve dependencies: `npm install`. Gulp config file is inside a theme root folder `gulpfile.js`.
-5. To compile external SCSS, concatenate styles and minify: `gulp sass`. The result CSS path is `resources/dist/app.min.css`. The theme's own styles are compiled automatically by OJS's theme API.
-6. To concatenate and minify javascript: `gulp scripts` and `gulp compress`. The result Javascript file path is `resources/dist/app.min.js`. Run `gulp watch` to view javascript changes inside `resources/js` folder in real time.
-7. To compile and minify all at once: `gulp compileAll`.
-8. Copy the plugin's folder to `plugins/themes` directory starting from the OJS installation root folder.
-9. Login into the OJS admin dashboard, activate the plugin and enable the theme.
-
-Note that the master branch may contain code that will not be shipped to the stable release.
-
-## Contributors
-Immersion theme was designed and developed by Sophy Ouch ([@sssoz](https://github.com/sssoz)), Vitaliy Bezsheiko ([@Vitaliy-1](https://github.com/Vitaliy-1)), John Willinsky, and Kevin Stranack.
 
 ## Troubleshooting
 For technical question regarding the theme (bugs, enhancements, etc.), please open an issue on the plugin's GitHub page. For non-technical questions or if you are uncertain about the question's category please visit the [PKP Forum](https://forum.pkp.sfu.ca/). Before opening and issue or posting a question on forum please make sure that it wasn't solved before.
