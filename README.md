@@ -1,7 +1,7 @@
 # mitema Theme
 An  theme based in Inmersion theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/)
 
-![Image in hedar theme OJS](./plugins/themes/mitema/resources/images/homepageimage_en.jpg)
+![Image in head theme OJS](https://private-user-images.githubusercontent.com/224340/288933350-4b5cf4bb-3ae5-462b-88b5-9c11b96bc66e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE5OTgwMDEsIm5iZiI6MTcwMTk5NzcwMSwicGF0aCI6Ii8yMjQzNDAvMjg4OTMzMzUwLTRiNWNmNGJiLTNhZTUtNDYyYi04OGI1LTljMTFiOTZiYzY2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwOFQwMTA4MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZDY2MDg5N2NhYzgyZWQwOTY5NjIwNGU2OWUzNmUxZTZkZWU2YTdkMjlmYWRkNzMyYjk1OGVhMWFhMTQzZjc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.AqoaS1ZkYCqSQDGG_f-iB0qnwL1-rUAgZ5efV_kuJeQ)
 
 ## Description
 The purpose of this theme is to learn more about how themes development work in OJS. It is based on the Immersion theme because it is a theme with a very pleasant and practical layout to have easy-to-read content.
