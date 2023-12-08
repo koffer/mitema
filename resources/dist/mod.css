@@ -30,6 +30,8 @@
     text-rendering: optimizeLegibility;
 
     background: var(--bs-blue-main);
+    background: linear-gradient(173deg, rgba(207,222,219,1) 0%, rgba(207,222,219,1) 55%, rgba(249,199,98,1) 78%, rgba(104,161,149,1) 100%);
+
 }
 
  h1, h2, h3, h4, h5, h6, legend {
