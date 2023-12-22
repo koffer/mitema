@@ -5,13 +5,13 @@ An  theme based in Inmersion theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/)
 
 
 ## Description
-The purpose of this theme is to learn more about how themes development work in OJS. It is based on the Immersion theme because it is a theme with a very pleasant and practical layout to have easy-to-read content.
+The purpose of this theme is to learn more about how themes development work in OJS. It is based on the [Immersion theme](https://docs.pkp.sfu.ca/pkp-theming-guide/en/theme-immersion). because it is a theme with a very pleasant and practical layout to have easy-to-read content.
 
 This theme attempts to achieve the following goals:
 
-1- Use pure CSS pur and stop using any preprocessor. In this case stop using LESS. CSS options have come a long way and it is now possible to do almost everything that is required with CSS alone.
+1- Use CSS and stop using any preprocessor. In this case stop using LESS. CSS options have come a long way and it is now possible to do almost everything that is required with CSS alone (work in progress).
 
-2- Stop using Boostrap classes in layout. It is now possible to replicate much of Boostrap's functionality with CSS options such as flex or grid without having to use the classes that Bootstrap uses.
+2- Stop using Boostrap classes in layout. It is now possible to replicate much of Boostrap's functionality with CSS options such as flex or grid without having to use the classes that Bootstrap uses (it's not ready yet).
 
 3- Make a simple and attractive design based on the arrangement of the Immersion theme.
 
