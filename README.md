@@ -10,7 +10,7 @@ This theme attempts to achieve the following goals:
 
 1- Use pure CSS pur and stop using any preprocessor. In this case stop using LESS. CSS options have come a long way and it is now possible to do almost everything that is required with CSS alone.
 
-2- Stop using Boostrap tags. It is now possible to replicate much of Boostrap's functionality with CSS options such as flex or grid without having to use the classes that Bootstrap uses.
+2- Stop using Boostrap classes in layout. It is now possible to replicate much of Boostrap's functionality with CSS options such as flex or grid without having to use the classes that Bootstrap uses.
 
 3- Make a simple and attractive design based on the arrangement of the Immersion theme.
 
