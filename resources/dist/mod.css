@@ -20,7 +20,8 @@
 
 
  body {
-    font-family: 'Roboto',sans-serif;
+    /* font-family: 'Roboto',sans-serif; */
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: #000;
     font-size: 21px;
     font-weight: 400;
