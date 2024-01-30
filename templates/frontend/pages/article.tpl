@@ -20,7 +20,7 @@
 {include file="frontend/components/header.tpl" pageTitleTranslated=$article->getLocalizedTitle()|escape}
 
 <main class="container" id="immersion_content_main">
-	<div class="row_mod">
+	<div class="row_mod grid-layout">
 
 		{* Show article overview *}
 		{include file="frontend/objects/article_details.tpl"}

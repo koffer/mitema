@@ -78,15 +78,34 @@ aside h1, aside h2, aside h3, aside h4, aside h5, aside h6, aside legend {
 /* layout phone */
 
 
+/* se necesita otro para otros acomodos ba a sustituir a .row */
 
 .grid-layout   {
     
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr; */
+     grid-template-columns: repeat(12, 1fr); 
     grid-template-rows: 1fr 3rem;
     grid-column-gap: 32px;
     grid-row-gap: 0px;
     
+}
+
+/* col-mod */
+
+@media (min-width: 992px) {
+
+    .col-md-8-mod {
+        grid-column: span 8;
+    }
+
+    .col-md-6-mod {
+        grid-column: span 6;
+    }
+
+    .col-md-4-mod {
+        grid-column: span 4;
+    }
 }
 
 @media (max-width: 991.98px) {

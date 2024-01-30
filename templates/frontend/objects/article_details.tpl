@@ -65,9 +65,9 @@
  * @uses $ccLicenseBadge string An image and text with details about the license
  *}
 
- <div class="grid-layout">
+ {* <div class="grid-layout"> *}
 
-<section class="col-md-8_mod article-page">
+<section class="col-md-8-mod article-page">
 	<header class="article-page__header">
     {* Notification that this is an old version *}
 		{if $currentPublication->getId() !== $publication->getId()}
@@ -326,7 +326,7 @@
 </section>
 
 
-<aside class="col-md-4_mod article-sidebar">
+<aside class="col-md-4-mod article-sidebar">
 
 	{* Article/Issue cover image *}
 	{if $publication->getLocalizedData('coverImage') || ($issue && $issue->getLocalizedCoverImage())}
@@ -450,4 +450,3 @@
 
 </aside>
 
-</div>
