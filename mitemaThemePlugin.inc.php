@@ -28,6 +28,8 @@ class mitemaThemePlugin extends ThemePlugin
 
         // Adding styles (JQuery UI, Bootstrap, Tag-it)
         //   $this->addStyle('app-css', 'resources/dist/app.min.css');
+
+         // In a final version this link will desapear.
           $this->addStyle('less', 'resources/less/import.less');
 
         /* child theme paramenters */ 
@@ -38,6 +40,8 @@ class mitemaThemePlugin extends ThemePlugin
          // Change the ID of this stylesheet slug to
          // `child-stylesheet`. This ensures that it
          // won't clash with the parent's stylesheet.
+
+          // This is the main css.
          $this->addStyle('child-stylesheet', 'resources/dist/mod.css');
 
         // Styles for HTML galleys
