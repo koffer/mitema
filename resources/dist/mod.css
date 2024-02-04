@@ -139,10 +139,16 @@ aside h1, aside h2, aside h3, aside h4, aside h5, aside h6, aside legend {
 .article-page {
 
     padding-left: 6vh;
+    margin-top: 5vh;
     /* / gradient / */
 
     background: rgb(191,215,210);
-    background: linear-gradient(90deg, rgba(104,161,149,1) 1%, rgba(104,161,149,1) 3%, rgba(104,161,149,1) 83%, rgba(191,215,210,1) 92%);
+    /* background: linear-gradient(90deg, rgba(104,161,149,1) 1%, rgba(104,161,149,1) 3%, rgba(104,161,149,1) 83%, rgba(191,215,210,1) 92%); */
+    color:#000;
+}
+
+.article-page a, .article-page a:visited {
+    color: #000;
 }
 
 @media (max-width: 991.98px) {
@@ -154,6 +160,7 @@ aside h1, aside h2, aside h3, aside h4, aside h5, aside h6, aside legend {
     
         background: rgb(191,215,210);
         background: rgba(104,161,149,1);
+        color:#000;
         }
     
 
